@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_margin="20dp">
+    <EditText
+        android:id="@+id/ivy_serial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ivy serial number"/>
+    <EditText
+        android:id="@+id/asset_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Asset Category"/>
+    <EditText
+        android:id="@+id/asset_manufacturer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="manufacturer"/>
+    <EditText
+        android:id="@+id/model_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Model number"/>
+<!--    <EditText-->
+<!--&lt;!&ndash;        android:id="@+id/asset_type"&ndash;&gt;-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="asset_type"/>-->
+<!--    <EditText-->
+<!--        android:id="@+id/asset_type"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="asset_type"/>-->
+
+</LinearLayout>

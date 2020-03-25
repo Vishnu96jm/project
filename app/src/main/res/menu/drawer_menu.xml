@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard"/>
+        <item android:id="@+id/nav_view_assets"
+            android:icon="@drawable/ic_view_assets"
+            android:title="View Assets"/>
+        <item android:id="@+id/nav_add_assets"
+            android:icon="@drawable/ic_add_assets"
+            android:title="Add Asset"/>
+        <item android:id="@+id/nav_assigned_assets"
+            android:icon="@drawable/ic_assigned_assets"
+            android:title="Assigned Assets"/>
+        <item android:id="@+id/nav_vendors"
+            android:icon="@drawable/ic_vendors"
+            android:title="Vendors"/>
+        <item android:id="@+id/nav_employees"
+            android:icon="@drawable/ic_employees"
+            android:title="Employees"/>
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item android:id="@+id/nav_view_profile"
+                android:icon="@drawable/ic_account"
+                android:title="View Profile"/>
+            <item android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_signout"
+                android:title="Sign out"/>
+        </menu>
+    </item>
+
+</menu>
